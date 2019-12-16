@@ -1,0 +1,10 @@
+select * from colors where color = "cornsilk" or color = "darkgrey" orderby hexCode
+
+select color, likes from colors where likes >= 20 or likes = 12 orderby likes
+
+select color, likes from colors where likes >= 20 and likes < 100
+
+insert into colors(color, hexCode) values("magenta", "#ff")
+
+update colors set hexCode = "#ff00ff" where color = "magenta"
+

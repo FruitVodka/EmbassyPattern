@@ -1,0 +1,18 @@
+[
+    {
+        "role":"admin",
+        "operations":"['find', 'update', 'delete', 'insert']"
+    },
+    {
+        "role":"member",
+        "operations":"['find', 'update', 'insert']"
+    },
+    {
+        "role":"subscriber",
+        "operations":"['find', 'update']"
+    },
+    {
+        "role":"user",
+        "operations": "['find']"
+    }
+]
